@@ -4,6 +4,11 @@
 
 ---
 
+## Live Demo
+
+Frontend: [your-vercel-link ](https://print-now.vercel.app/)
+Backend API: [your-render-link](https://printnow-backend-nbe7.onrender.com/)
+
 ## Problem Statement
 
 Traditional printing services require customers to physically visit the store, wait in queues, submit documents manually, and wait again for printing.
