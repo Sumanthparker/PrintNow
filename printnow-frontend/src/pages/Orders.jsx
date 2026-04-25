@@ -13,7 +13,7 @@ function Orders() {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/orders",
+        "https://printnow-backend-nbe7.onrender.com/api/orders",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -33,7 +33,7 @@ function Orders() {
       const token = localStorage.getItem("token");
 
       await axios.patch(
-        `http://localhost:5000/api/orders/${orderId}/cancel`,
+        `https://printnow-backend-nbe7.onrender.com/api/orders/${orderId}/cancel`,
         {},
         {
           headers: {

@@ -17,7 +17,7 @@ function Store() {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/store/orders",
+        "https://printnow-backend-nbe7.onrender.com/api/store/orders",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -49,7 +49,7 @@ function Store() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/orders/verify",
+        "https://printnow-backend-nbe7.onrender.com/api/orders/verify",
         { code: enteredCode },
         {
           headers: {

@@ -27,7 +27,7 @@ function Upload() {
       formData.append("color", color);
       formData.append("pickup_time", pickup_time);
 
-      const res = await axios.post("http://localhost:5000/api/orders", formData, {
+      const res = await axios.post("https://printnow-backend-nbe7.onrender.com/api/orders", formData, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "multipart/form-data",
